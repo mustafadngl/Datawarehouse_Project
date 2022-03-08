@@ -49,6 +49,6 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 
 ## IMPLEMENTATION OF MODELLING
 
-1- In sql_queries.py, SQL query statements were edited for create_tables.py and etl.py. This file consists queries in order to creat, drop designed tables and insert table from data where located in S3 bucket.
-2- In create_tables.py, functions defined in order to create, drop related tables. Also, sparkify database in S3 was created and connected by functions in the file. In conlusion, returns Redshift cluster cursor. Finally, it Redshift cluster cursor.
+1- In sql_queries.py, SQL query statements were edited for create_tables.py and etl.py. This file consists queries in order to creat, drop designed tables and insert table from data where located in S3 bucket.   
+2- In create_tables.py, functions defined in order to create, drop related tables. Also, sparkify database in S3 was created and connected by functions in the file. In conlusion, returns Redshift cluster cursor. Finally, it Redshift cluster cursor.  
 3- In etl.py, inserts data from S3 bucket throught tables. Also, it reads and organizes the data from base folders.
