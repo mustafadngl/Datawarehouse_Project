@@ -35,8 +35,10 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 | last_name | artist_id (distrubuted key) |
 | gender (distributed key) | duration |
 | song_id  | 
-| level  | 
-|:**time**:            |:**artists**:   |
+| level  |
+|   |   |
+|**time**            |**artists**  |
+|  ------------- | --------------- |
 | start_time   (primary and sortkey key)| artist_id (primary key and sort key) |
 |hour| name (distrubuted key) | 
 | day | location |
