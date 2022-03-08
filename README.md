@@ -28,12 +28,12 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 
 ### DIMENSION TABLES
 
-|users  |songs  |
-| ------------- | ------------- |
-| user_id (primary key) | song_id   (primary and sortkey key) |
-| first_name|title| 
-| last_name | artist_id (distrubuted key) |
-| gender (distributed key) | duration |
+|users  | |songs  |
+| ------------- | | ------------- |
+| user_id (primary key) | | song_id   (primary and sortkey key) |
+| first_name| |title| 
+| last_name | | artist_id (distrubuted key) |
+| gender (distributed key) | | duration |
 | song_id  | 
 | level  |
 
