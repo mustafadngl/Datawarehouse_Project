@@ -28,14 +28,14 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 
 ### DIMENSION TABLES
 
-|users  ||
-| ------------- || 
-| user_id (primary key) | |
-| first_name| |
-| last_name | |
-| gender (distributed key) || 
-| song_id  || 
-| level  | |
+|users  |
+| ------------- | 
+| user_id (primary key) | 
+| first_name| 
+| last_name | 
+| gender (distributed key) |
+| song_id  | 
+| level  | 
 
 ### users                                            
 "user_id (primary and sort key)        
