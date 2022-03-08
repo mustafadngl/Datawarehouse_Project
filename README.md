@@ -15,6 +15,17 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 
 ### FACT TABLE
 
+|songplays  |
+| ------------- | 
+| songplay_id (primary key) | 
+| start_time (sort key) | 
+| user_id     (distributed key)  | 
+| level  | 
+| song_id  | 
+| artist_id  | 
+| session_id  | 
+| location  | 
+
 ### songplays
 "songplay_id (primary key)  
 "start_time  (sort key)
