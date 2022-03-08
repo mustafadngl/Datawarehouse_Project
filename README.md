@@ -28,22 +28,34 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 
 ### DIMENSION TABLES
 
-### users                              ### songs                
-"user_id (primary and sort key)        "song_id   (primary and sortkey key)
-"first_name                            "title    
-"last_name                             "artist_id (distributed key)  
-"gender  (distributed key)             "duration 
+### users                                            
+"user_id (primary and sort key)        
+"first_name                               
+"last_name                             
+"gender  (distributed key)            
 "level
 
-### artists                           ### time
-"artist_id (primary and sort key)     "start_time (primary and sort key)  
-"name      (distributed key)          "hour
-"location                             "day
-"latitude                             "week
-"longitude                            "month
-                                      "year       (distrubuted key)
-                                      "weekday
+### songs  
+"song_id   (primary and sortkey key)
+"title
+"artist_id (distributed key)
+"duration
 
+### artists                           
+"artist_id (primary and sort key)       
+"name      (distributed key)          
+"location                             
+"latitude                             
+"longitude                                                     
+                                      
+### time
+"start_time (primary and sort key)
+"hour
+"day
+"week
+"month
+"year       (distrubuted key)
+"weekday
 
 ## IMPLEMENTATION OF MODELLING
 
