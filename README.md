@@ -15,7 +15,7 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 
 ### FACT TABLE
 
-#### songplays
+### songplays
 "songplay_id (primary key)
 "start_time  (sort key)
 "user_id     (distributed key)
@@ -28,14 +28,14 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 
 ### DIMENSION TABLES
 
-#### users                              #### songs                
+### users                              ### songs                
 "user_id (primary and sort key)        "song_id   (primary and sortkey key)
 "first_name                            "title    
 "last_name                             "artist_id (distributed key)  
 "gender  (distributed key)             "duration 
 "level
 
-#### artists                           #### time
+### artists                           ### time
 "artist_id (primary and sort key)     "start_time (primary and sort key)  
 "name      (distributed key)          "hour
 "location                             "day
