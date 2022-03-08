@@ -30,23 +30,13 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 
 |users  |songs  |   time      |  artists  |
 | ------------- | ------------- |------------- | --------------- |
-| user_id (primary key) | song_id   (primary and sortkey key) |start_time   (primary and sortkey key)| artist_id (primary key and sort key) |
-| first_name | title | hour| name (distrubuted key) | 
-| last_name | artist_id (distrubuted key) | day | location |
-| gender (distributed key) | duration | week | latitude |
+| user_id (**primary key) | song_id   (**primary and sortkey key) |start_time   (**primary and sortkey key)| artist_id (**primary key and sort key) |
+| first_name | title | hour| name (**distrubuted key) | 
+| last_name | artist_id (**distrubuted key) | day | location |
+| gender (**distributed key) | duration | week | latitude |
 | song_id  | |  month | longitude  |
-| level  | | year (distrubuted key) |  |
+| level  | | year (**distrubuted key) |  |
 | | | weekday| |
-
-|      **time**            |**artists**  |
-|  ------------- | --------------- |
-| start_time   (primary and sortkey key)| artist_id (primary key and sort key) |
-|hour| name (distrubuted key) | 
-| day | location |
-| week | latitude |
-| month | longitude  |
-| year (distrubuted key) |             
-| weekday |             
 
 ## IMPLEMENTATION OF MODELLING
 
