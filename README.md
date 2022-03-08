@@ -36,6 +36,7 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 | gender (distributed key) | duration |
 | song_id  | 
 | level  | 
+| ------------- | ------------- |
 |time|artists   |
 | ------------- | ------------- |
 | start_time   (primary and sortkey key)| artist_id (primary key and sort key) |
@@ -45,25 +46,6 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 | month | longitude  |
 | year (distrubuted key) |             
 | weekday |             
-
-
-
-
-### artists                           
-"artist_id (primary and sort key)       
-"name      (distributed key)          
-"location                             
-"latitude                             
-"longitude                                                     
-                                      
-### time
-"start_time (primary and sort key)
-"hour
-"day
-"week
-"month
-"year       (distrubuted key)
-"weekday
 
 ## IMPLEMENTATION OF MODELLING
 
