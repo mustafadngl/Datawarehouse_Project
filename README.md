@@ -26,18 +26,16 @@ In order to implement given data to build ETL pipeline, A fact table and four di
 | session_id  | 
 | location  | 
 
-### songplays
-"songplay_id (primary key)  
-"start_time  (sort key)
-"user_id     (distributed key)
-"level
-"song_id
-"artist_id
-"session_id
-"location
-
-
 ### DIMENSION TABLES
+
+|users  ||
+| ------------- || 
+| user_id (primary key) | |
+| first_name| |
+| last_name | |
+| gender (distributed key) || 
+| song_id  || 
+| level  | |
 
 ### users                                            
 "user_id (primary and sort key)        
