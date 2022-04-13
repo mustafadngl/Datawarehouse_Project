@@ -1,4 +1,4 @@
-# Datawarehouse_Project-viaudacity-
+# Datawarehouse_Project
 
 This project was aimed to build an ETL pipeline for a streaming music startup. In this manner, data in S3 was extracted in a Redshift cluster and transformed into dimensional tables in order to provide ease to make data analytics.
 
